@@ -136,6 +136,11 @@ _G.packer_plugins = {
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
+  },
   ["vim-snippets"] = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-snippets",
@@ -150,6 +155,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-table-mode",
     url = "https://github.com/dhruvasagar/vim-table-mode"
+  },
+  ["vim-virtualenv"] = {
+    loaded = true,
+    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-virtualenv",
+    url = "https://github.com/jmcantrell/vim-virtualenv"
   },
   ["wildfire.vim"] = {
     loaded = true,

@@ -47,15 +47,17 @@ return packer.startup(function(use)
   use "gcmt/wildfire.vim"
   use "tpope/vim-surround"
   use "vim-airline/vim-airline"
+  use "vim-airline/vim-airline-themes"
+  use "jmcantrell/vim-virtualenv"
   use "morhetz/gruvbox"
   use "dense-analysis/ale"
-  use {'neoclide/coc.nvim', branch = 'release'}
+  use {'neoclide/coc.nvim', branch = 'release', run = ":CoCInstall coc-marketplace coc-java"}
   use "honza/vim-snippets"
   use 'junegunn/fzf'
   use 'ggandor/leap.nvim'
   use 'dhruvasagar/vim-table-mode'
   use { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, }
-  use {"nvim-treesitter/nvim-treesitter"}
+  use {"nvim-treesitter/nvim-treesitter", run = ":TSInstall java c python"}
   use "SirVer/ultisnips"
 
   -- Automatically set up your configuration after cloning packer.nvim
