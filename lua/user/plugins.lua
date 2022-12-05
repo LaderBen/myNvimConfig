@@ -53,6 +53,9 @@ return packer.startup(function(use)
   use "honza/vim-snippets"
   use 'junegunn/fzf'
   use 'ggandor/leap.nvim'
+  use 'dhruvasagar/vim-table-mode'
+  use {"iamcco/markdown-preview.nvim",run = function() vim.fn["mkdp#util#install"]() end,}
+  use { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

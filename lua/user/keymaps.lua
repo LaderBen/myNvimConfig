@@ -25,6 +25,9 @@ keymap("n","<S-k>","5k", opts)
 -- Use FZF
 keymap("n", "<C-f>", ":FZF<CR>", opts)
 
+-- vim-table-mode
+keymap("n", "<leader>tm", ":TableModeToggle<CR>", opts)
+
 -- File save and quit the neovim
 keymap("n", "<C-s>", ":w<CR>", opts)
 keymap("n", "<S-q>", ":q<CR>", opts)
@@ -43,6 +46,8 @@ keymap("n", "<leader>sk", ":set nosplitbelow<CR>:split<CR>", opts)
 keymap("n", "<leader>sh", ":set nosplitright<CR>:vsplit<CR>", opts)
 keymap("n", "<leader>sl", ":set splitright<CR>:vsplit<CR>", opts)
 
+-- no highlight serach
+keymap("n", "<leader><CR>", ":nohlsearch<CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
