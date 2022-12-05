@@ -44,6 +44,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use {"numToStr/Comment.nvim", config = function() require('Comment').setup() end} -- A comment nvim plugin
   use "gcmt/wildfire.vim"
   use "tpope/vim-surround"
   use "vim-airline/vim-airline"
@@ -51,13 +52,15 @@ return packer.startup(function(use)
   use "jmcantrell/vim-virtualenv"
   use "morhetz/gruvbox"
   use "dense-analysis/ale"
-  use {'neoclide/coc.nvim', branch = 'release', run = ":CoCInstall coc-marketplace coc-java"}
+  use {'neoclide/coc.nvim', branch = 'release'}
   use "honza/vim-snippets"
   use 'junegunn/fzf'
   use 'ggandor/leap.nvim'
   use 'dhruvasagar/vim-table-mode'
   use { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, }
+  -- Treesitter
   use {"nvim-treesitter/nvim-treesitter", run = ":TSInstall java c python"}
+  use "JoosepAlviste/nvim-ts-context-commentstring"  
   use "SirVer/ultisnips"
 
   -- Automatically set up your configuration after cloning packer.nvim
