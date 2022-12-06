@@ -31,7 +31,7 @@ local options = {
   	signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
   	wrap = false,                            -- display lines as one long line
   	scrolloff = 8,                           -- is one of my fav
-  	sidescrolloff = 8,
+  	sidescrolloff = 15,
   	guifont = "monospace:h17",               -- the font used in graphical neovim applications
 }
 
@@ -42,4 +42,8 @@ for k,v in pairs(options) do
 end
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
-vim.cmd [[set iskeyword+=-]]
+vim.cmd ([[
+set iskeyword+=-
+au bufreadpost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+exec "nohlsearch"
+]])
