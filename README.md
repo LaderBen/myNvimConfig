@@ -9,7 +9,7 @@ This is my Neo Vim config file.
 3. the_silver_searcher        -- Booster for fzf it can search the context in the file 
 
 # Usage
-I maped the leader key as space \n
+I maped the leader key as space 
 ## Normal mode
 | key            | maped command                          | desc                 |
 |----------------|----------------------------------------|----------------------|
