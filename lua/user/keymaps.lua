@@ -45,6 +45,10 @@ keymap("n", "<leader>sj", ":set splitbelow<CR>:split<CR>", opts)
 keymap("n", "<leader>sk", ":set nosplitbelow<CR>:split<CR>", opts)
 keymap("n", "<leader>sh", ":set nosplitright<CR>:vsplit<CR>", opts)
 keymap("n", "<leader>sl", ":set splitright<CR>:vsplit<CR>", opts)
+-- Switch split vertical and horizontal window
+keymap("n", "<leader>sv", "<C-w>t<C-w>H", opts)
+keymap("n", "<leader>sV", "<C-w>t<C-w>K", opts)
+
 
 -- no highlight serach
 keymap("n", "<leader><CR>", ":nohlsearch<CR>", opts)

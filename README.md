@@ -11,15 +11,23 @@ This is my Neo Vim config file.
 # Usage
 I maped the leader key as space 
 ## Normal mode
-| key            | maped command                          | desc                 |
-|----------------|----------------------------------------|----------------------|
-| Shift + q      | :q\<CR>                                | quite the file       |
-| Ctrl + s       | :w\<CR>                                | save the file        |
-| Shift + j      | 5j                                     | move 5 lines down    |
-| Shift + k      | 5k                                     | move 5 lines up      |
-| leader + e     | :Lex 30<cr>                            | open project tree    |
-| leader + s + j | :set splitbelow<CR>:split<CR>          | split window below   |
-| leader + s + k | :set nosplitbelow<CR>:split<CR>        | split window top     |
-| leader + s + h | :set nosplitright<CR>:vsplit<CR>       | split window left    |
-| leader + s + l | :set splitright<CR>:vsplit<CR>         | split window right   |
-| gcc            | It's a Comment.nvim plugin key mapping | Comment current line |
+| key            | maped command                          | desc                                              |
+|----------------|----------------------------------------|---------------------------------------------------|
+| Shift + q      | :q\<CR>                                | quite the file                                    |
+| Ctrl + s       | :w\<CR>                                | save the file                                     |
+| Shift + j      | 5j                                     | move 5 lines down                                 |
+| Shift + k      | 5k                                     | move 5 lines up                                   |
+| leader + e     | :Lex 30<cr>                            | open project tree                                 |
+| leader + s + j | :set splitbelow<CR>:split<CR>          | split window below                                |
+| leader + s + k | :set nosplitbelow<CR>:split<CR>        | split window top                                  |
+| leader + s + h | :set nosplitright<CR>:vsplit<CR>       | split window left                                 |
+| leader + s + l | :set splitright<CR>:vsplit<CR>         | split window right                                |
+| leader + s + v | <C-w>t<C-w>H                           | Switch the split window to horizontal             |
+| leader + s + V | <C-w>t<C-w>K                           | Switch the split window to vertical               |
+| gcc            | It's a Comment.nvim plugin key mapping | Comment current line                              |
+| Ctrl+f         | :FZF                                   | Open fzf to open another file in your current dir |
+
+## Insert mode
+| key | maped command | desc                  |
+|-----|---------------|-----------------------|
+| jj  | <ESC>         | quite the insert mode |
