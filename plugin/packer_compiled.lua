@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/ben/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/ben/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/ben/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/ben/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/ben/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "C:\\Users\\z8741\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?.lua;C:\\Users\\z8741\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\z8741\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\z8741\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\z8741\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.0-beta3\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,104 +77,104 @@ _G.packer_plugins = {
   ["Comment.nvim"] = {
     config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0" },
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   ale = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/ale",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ale",
     url = "https://github.com/dense-analysis/ale"
   },
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   fzf = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/fzf",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf",
     url = "https://github.com/junegunn/fzf"
   },
   gruvbox = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   ["leap.nvim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/leap.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\leap.nvim",
     url = "https://github.com/ggandor/leap.nvim"
   },
   ["markdown-preview.nvim"] = {
     loaded = false,
     needs_bufread = false,
     only_cond = false,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-context-commentstring"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-ts-context-commentstring",
     url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
   ultisnips = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/ultisnips",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ultisnips",
     url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-airline-themes"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
   ["vim-snippets"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-snippets",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-snippets",
     url = "https://github.com/honza/vim-snippets"
   },
   ["vim-surround"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-surround",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vim-table-mode"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-table-mode",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-table-mode",
     url = "https://github.com/dhruvasagar/vim-table-mode"
   },
   ["vim-virtualenv"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/vim-virtualenv",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-virtualenv",
     url = "https://github.com/jmcantrell/vim-virtualenv"
   },
   ["wildfire.vim"] = {
     loaded = true,
-    path = "/home/ben/.local/share/nvim/site/pack/packer/start/wildfire.vim",
+    path = "C:\\Users\\z8741\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\wildfire.vim",
     url = "https://github.com/gcmt/wildfire.vim"
   }
 }

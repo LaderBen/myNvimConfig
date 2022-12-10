@@ -2,5 +2,6 @@
   "prettier.singleQuote":true,
   "prettier.trailingComma":"all",
   "prettier.bracketSpacing":false,
-  "suggest.noselect": true
+  "suggest.noselect": true,
+  "clangd.path": "~\\AppData\\Local\\coc\\extensions\\coc-clangd-data\\install\\15.0.6\\clangd_15.0.6\\bin\\clangd.exe"
 }
